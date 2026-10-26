@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="76" viewBox="0 0 280 76" role="img" aria-labelledby="t"><title id="t">Email</title>
+<style>
+@font-face{font-family:"Libre Franklin";font-weight:600;font-style:normal;src:url(data:font/woff2;base64,d09GMgABAAAAAASIABAAAAAACTgAAAQuAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhwbgRocfAZgP1NUQVREAEwRCAqFSIRQATYCJAMkCxQABCAFhFwHIAwHG5oHKI7CtrVzTChH8eKYMkHH89/vx2/tcx+uGj1ZtPoyYo3U/hAtNIZQiSSTn68z3088E3AFJ15oNoALQVf41Ft7zPwfM/1/a4ykCtHRQEcW1TiKDoLpwPoqtEIP6Oze+Z3paYb3nnjpAHyiYCSglGhikCEiGG6hGqSDyj4NcO46x8eAo4O/o+6Od2wMGCCGTonHUGX1D2ArNbJBYvXosCyV6ANUyBiKl1CjrqWbH/cyD3Ku6OaUsRHImCU2RxuvGbTPpMiCnAOEJks4ITERL0o0eKLXZkWyd0e5I6QQicHzWd90lV0GoFKPCBmcWCVXoCYdYun4sGOnhiRw2yHR9vA/RvcaviFQ4+sn5iLLHoaYmAUL7/7QHxiPgFv3nBGEQXTGQpDBJAMA3xN8ZAhWrGFiDSXJpdgKDB9hfznEKSj6Pw4AiKTFr8f3xLcmTAggF/6PwxgwDIynjV/IcGBkAMWiVDtjJGvJGiGHfQspxz4HZy8DPcZaCnocB6H1wzGNYsvL3wpR3ZffY0s/ojmfPulVmzYFzXmLLX1ctn79ZN3GjVPOfcKXffgA1fzYjZNTtubp54jqzt+/fFx/w8u/tuTQsSC9Ewh5zlB6QCqFRroKOuFCdu4Z8agsXb9hyrFXz2j0Q/qGTTQC1bfW3wyXLw9MXL8eO5+3IY8dxkCg5xl4z+f+GMXtEwp6+JxTXM73Mdxhqo7xcxTrKgu38TjDtMnMP1X+l/fgxmb2UE5tn35I0igZmlFuIAv2HmAkrqyqzHlJ1LvnjIgkjb2HJzTr+u3FpT21DjyAaZkrmOysMfw3gs9z0cnH65Nz/pekvWGzB3gquD2JdYStxycz/47jejm8jElMMuNTMJeQ5+fytRKKbmEbRALSXej2D48XlOs59CW5dYMJ+WXZ/KwmVe0n4ZjaLZs+ZaqGNd1BsdjCnIQZCkOFiauTn/v6mATGMxZ9KVNRzhzkESUaYdUHD76FbcEnY14+N8iBWoyCwYZuQoE9wIf6KWg8q5zYaOe2fWWQyb/h45lfSwCfu8MjgP3/14yknxisQHhDjvaqDhitatsRZw6rrXCmFjjiFVICdiH3BBDsFn+0BxguGGY/kplIQqjhRSM8giYdE3gL4MdWd/lltF/85ngY411N/iDTQ/AG25hIAQIjs5vzaTA2x/kYjMz1u+EwPI8dMMpoU4wV5BcwXpYaVZlAFg2G3tw+QS5jxUlKYznFhEUExTgcyh0lxMvdy9kSE4wXMMpY42Qp6j0w3mgUaFGZhPyC9dZO4FLBbZSosl82yih+EV4+o8SMN07lHCSXL1A8Q9U61PQtRnhFBUmNEuFB8PKbIMJprFoVqpLKVt36DZFw3Qhdjc5ILgc61epDQaNG18nh9wn0uvPpWiPWbTznrEJuxE4q5/ltZOD/dlgvzh5A8QWnuxU=) format("woff2")}
+.ui{font-family:"Libre Franklin", "Franklin Gothic", ui-sans-serif, system-ui, sans-serif;font-weight:600;font-style:normal}
+text{text-rendering:geometricPrecision}
+.rise{animation:rise 1.2s cubic-bezier(.32,.72,0,1) both}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+.drift{transform-box:fill-box;transform-origin:center;animation:drift 18s cubic-bezier(.45,.05,.25,1) infinite alternate}
+@keyframes drift{to{transform:translate(var(--dx),var(--dy)) scale(1.08)}}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.6s cubic-bezier(.32,.72,0,1) infinite}
+@keyframes pulse{from{opacity:.6;transform:scale(1)}to{opacity:0;transform:scale(3.2)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<defs></defs>
+<g class="rise" style="animation-delay:0ms"><rect x="8.5" y="6.5" width="263" height="63" rx="31.5" fill="#000000" fill-opacity="0.03" stroke="#000000" stroke-opacity="0.07"/><rect x="13" y="11" width="254" height="54" rx="27" fill="#fbfdfe"/><text x="37" y="43.3" class="ui" font-size="15" fill="#0a1622">Email</text><circle cx="244" cy="38" r="18" fill="#0a1622" fill-opacity=".09"/><path d="M239.8 42.2L248.2 33.8M242.53 33.8H248.2V39.47" fill="none" stroke="#0a1622" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>
